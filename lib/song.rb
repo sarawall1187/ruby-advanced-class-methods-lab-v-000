@@ -17,12 +17,14 @@ class Song
   end
   
   def self.new_by_name(song_name)
-  
+    song_name = @@name 
+    
+    
   end
   
-  def self.create_by_name(song_name)
-    song_name = @@name
-    @@all << song_name
-  end
+  # def self.create_by_name(song_name)
+  #   song_name = @@name
+  #   @@all << song_name
+  # end
   
 end
