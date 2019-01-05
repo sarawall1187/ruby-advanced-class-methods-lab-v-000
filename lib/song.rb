@@ -42,4 +42,7 @@ class Song
      @@all.sort_by {|a, b| a <=> b }
   end
   
+  def self.destroy_all
+    @@all.clear
+  end
 end
