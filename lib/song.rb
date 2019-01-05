@@ -34,11 +34,7 @@ class Song
   end
   
   def self.find_or_create_by_name(song_name)
-    unique_song = []
-    self.new_by_name.collect do |song|
-     unique_song << song ||= song_name
-    end
-    unique_song
+    
   end
   
 end
