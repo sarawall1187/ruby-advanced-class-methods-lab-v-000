@@ -39,7 +39,7 @@ class Song
   end
   
   def self.alphabetical
-    binding.pry
+    #binding.pry
    song_in_order = @@all.sort_by {|song| song}
    song_in_order
   end
