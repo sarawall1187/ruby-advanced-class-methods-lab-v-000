@@ -37,7 +37,7 @@ class Song
     unique_song = []
     self.new_by_name.collect do |song|
      unique_song << song ||= song_name
-      
+    end
   end
   
 end
