@@ -34,8 +34,8 @@ class Song
   end
   
   def self.find_or_create_by_name(song_name)
-   uniqie_song = self.create_by_name(song_name) || self.find_by_name(song_name)
-
+   unique_song = self.create_by_name(song_name) || self.find_by_name(song_name)
+    unique_song
   end
   
 end
