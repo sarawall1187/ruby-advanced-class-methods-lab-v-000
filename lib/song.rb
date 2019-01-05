@@ -39,9 +39,7 @@ class Song
   end
   
   def self.alphabetical
-    binding.pry
-   song_in_order = @@all.sort_by!
-   song_in_order
+     @@all.sort_by!
   end
   
 end
