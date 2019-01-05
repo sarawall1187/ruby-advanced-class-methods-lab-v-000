@@ -46,7 +46,10 @@ class Song
     new_file = filename.split(" - ")
     artist = new_file[0]
     song = new_file[1].chomp(".mp3")
-    binding.pry
+    new_song = self.new
+    new_song.artist_name = artist
+    new_song.name = song 
+    new_song
   end
   
   def self.destroy_all
